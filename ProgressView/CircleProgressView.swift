@@ -106,7 +106,9 @@ import UIKit
                                 (-constants.twoSeventyDegrees + ((1.0 - internalProgress) * constants.circleDegress)) :
                                 (constants.ninetyDegrees - ((1.0 - internalProgress) * constants.circleDegress))
         
-        let context = UIGraphicsGetCurrentContext()
+        guard let context = UIGraphicsGetCurrentContext() else {
+            return
+        }
         
         // background Drawing
         trackBackgroundColor.setFill()
