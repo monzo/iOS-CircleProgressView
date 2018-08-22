@@ -45,7 +45,7 @@
 /* Begin PBXFileReference section */
 		6347076E1E17B1BF001C31D2 /* CircleProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CircleProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		634707701E17B1BF001C31D2 /* CircleProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleProgressView.h; sourceTree = "<group>"; };
-		634707711E17B1BF001C31D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		634707711E17B1BF001C31D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../CircleProgressView-Demo/Info.plist"; sourceTree = "<group>"; };
 		6347077E1E17B3FD001C31D2 /* CircleProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleProgressView.swift; sourceTree = "<group>"; };
 		CB095FC3199A8F44009C1C26 /* CircleProgressView-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CircleProgressView-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB095FC7199A8F44009C1C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -114,8 +114,7 @@
 				CB095FCF199A8F44009C1C26 /* Images.xcassets */,
 				CB095FC6199A8F44009C1C26 /* Supporting Files */,
 			);
-			name = "CircleProgressView-Demo";
-			path = CircleProgressView;
+			path = "CircleProgressView-Demo";
 			sourceTree = "<group>";
 		};
 		CB095FC6199A8F44009C1C26 /* Supporting Files */ = {
